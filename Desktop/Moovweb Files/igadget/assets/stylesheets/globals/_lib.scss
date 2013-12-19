@@ -1,0 +1,37 @@
+
+
+
+.mw_bar1{
+	background-color: #822604;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: white;
+	height:40px;
+	border-radius: 5px;
+}
+
+
+.mw_bar2{
+	background-color: blue;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: white;
+	height:40px;
+}
+
+.mw_arrow {
+  @include sprites-menu_go;
+  float: right;
+}
+
+.mw_addtocart{
+	background-color:#822604;
+	font-family: sans-serif;
+	font-size:16px;
+	border-radius: 8px;
+	border:solid;
+	border-width: 1px;
+	padding:8px;
+	display: inline-block;
+	a{ color: white;}
+}

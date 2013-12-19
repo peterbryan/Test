@@ -1,0 +1,84 @@
+
+//remove bullet points
+ul{
+	list-style-type: none;
+}
+
+#SideCategoryShopByPrice {
+	h2{ font-size: 16px;
+		margin-top: 8px;
+	}
+
+	ul {margin-top: -14px;}
+
+	li {
+	background-color: #f5f2e2;
+	border-bottom: solid;
+	border-left: solid;
+	border-width: 1px;
+	margin-left: -38px;
+	margin-right: 2px;
+	height: 38px;
+	border-right:solid;
+	border-width: 1px;
+
+			a{
+				margin-top: 16px;
+			margin-left: 8px;
+			font-size: 12px;
+			vertical-align: middle;
+			color: #5b211c;
+			font-weight: bold;
+		}
+
+	} //Li End
+}
+
+#SideShopByBrand{ ul
+{margin-top: -14px;}
+ li{
+ appearance: button;
+background-color: #f5f2e2;
+border-bottom: solid;
+border-right:solid;
+border-width: 1px;
+border-left: solid;
+border-width: 1px;
+margin-left: -38px;
+margin-right: 2px;
+height: 38px;
+	
+	a{
+			margin-left: 8px;
+			font-size: 12px;
+			vertical-align: middle;
+			color: #5b211c;
+			font-weight: bold;
+			margin-top: 16;
+		}
+	 }//Li End
+}//Side Shop By Brand End
+
+.mw_arrow{
+	margin-top: 12px;
+	margin-right: 2px;
+}
+
+
+
+//PRODUCTS
+	
+ .ProductList li{
+ 	margin-left:-30px;
+ 		height:150px;
+ 		width:300px;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    .ProductImage{float:left; padding-top: 5px; padding-left: 10px;
+    	padding-right: 10px; padding-bottom: 5px;}
+em{
+	color:red;
+}
+.ProductCompareButton{display:none;}
+	}
+

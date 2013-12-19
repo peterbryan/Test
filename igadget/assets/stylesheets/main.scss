@@ -1,0 +1,18 @@
+// Reset file for standardizing the page
+@import "globals/_reset";
+
+// Bourbon
+@import "globals/bourbon/_bourbon";
+
+// Globals
+@import "globals/_variables";
+@import "globals/_lib";
+@import "globals/_base";
+@import "globals/_uranium";
+
+// Header & Footer
+@import "sections/_header";
+@import "sections/_footer";
+
+// Pages
+@import "pages/_home";
